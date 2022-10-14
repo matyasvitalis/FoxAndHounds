@@ -16,8 +16,7 @@ public class Main {
      *  Game start.
      *
      */
-    public static void main() throws Exception {
-
+    public static void main(String[] args) throws Exception {
         new GetPlayerName();
         new MainMenu();
         new MainMenuCommandPrompt();
@@ -25,5 +24,8 @@ public class Main {
         new InGameCP();
 
     }
+
+
     }
+
 
